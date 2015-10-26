@@ -1,0 +1,395 @@
+/***** CLEARFIX is applied to the parent of floated elements *************/
+/*************************************************************************/
+/* line 4, ../scss/style.scss */
+.clearfix {
+  zoom: 1;
+}
+/* line 6, ../scss/style.scss */
+.clearfix:before, .clearfix:after {
+  content: "";
+  display: table;
+}
+/* line 10, ../scss/style.scss */
+.clearfix:after {
+  clear: both;
+}
+
+/***** SITE STYLES *************/
+/**********************************/
+/* line 17, ../scss/style.scss */
+.nav ul {
+  list-style: none;
+  background-color: #444;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+
+/* line 24, ../scss/style.scss */
+.nav li {
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.2em;
+  line-height: 40px;
+  height: 40px;
+  border-bottom: 1px solid #888;
+}
+
+/* line 32, ../scss/style.scss */
+.nav a {
+  text-decoration: none;
+  color: #fff;
+  display: block;
+  transition: .3s background-color;
+}
+
+/* line 39, ../scss/style.scss */
+.nav a:hover {
+  background-color: #005f5f;
+}
+
+/* line 43, ../scss/style.scss */
+.nav a.active {
+  background-color: #fff;
+  color: #444;
+  cursor: default;
+}
+
+/* line 50, ../scss/style.scss */
+.footerbox {
+  display: none;
+}
+
+/* line 55, ../scss/style.scss */
+.footer {
+  background-color: #ff6600;
+}
+
+/* line 58, ../scss/style.scss */
+.profile li {
+  background-color: gray;
+  width: 100%;
+  list-style-type: none;
+}
+
+/* line 64, ../scss/style.scss */
+.graybox {
+  width: 100%;
+  background-color: #989898;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+/* line 70, ../scss/style.scss */
+.graybox img {
+  width: 50%;
+  margin-left: 50px;
+}
+
+/* line 75, ../scss/style.scss */
+.blue2 {
+  width: 55%;
+  margin-left: 25px;
+}
+
+/* line 79, ../scss/style.scss */
+label {
+  display: inline-block;
+}
+
+/* line 83, ../scss/style.scss */
+form {
+  width: 100%;
+}
+
+@media screen and (min-width: 600px) {
+  /* line 96, ../scss/style.scss */
+  .blue2 {
+    width: 100%;
+  }
+
+  /* line 103, ../scss/style.scss */
+  .graybox {
+    width: 70%;
+    margin-left: 100px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  /* line 109, ../scss/style.scss */
+  .form {
+    width: 100%;
+    margin-left: 100px;
+  }
+
+  /* line 113, ../scss/style.scss */
+  .graybox img {
+    width: 50%;
+  }
+
+  /* line 118, ../scss/style.scss */
+  .nav li {
+    width: 80px;
+    border-bottom: none;
+    height: 50px;
+    line-height: 50px;
+    font-size: 1.4em;
+  }
+
+  /* line 125, ../scss/style.scss */
+  .nav li {
+    display: inline-block;
+    margin-right: -0px;
+  }
+
+  /* line 130, ../scss/style.scss */
+  .nav ul {
+    width: 50%;
+    margin-left: 300px;
+    margin-top: 50px;
+  }
+
+  /* line 138, ../scss/style.scss */
+  .footerbox {
+    display: block;
+    width: 50%;
+    float: left;
+  }
+
+  /* line 148, ../scss/style.scss */
+  .footerbox div {
+    width: 75%;
+  }
+
+  /* line 153, ../scss/style.scss */
+  .footerbox img {
+    float: left;
+    width: 25%;
+  }
+
+  /* line 158, ../scss/style.scss */
+  .footertext {
+    width: 40%;
+    float: right;
+    margin-right: 50px;
+  }
+
+  /* line 164, ../scss/style.scss */
+  .footertext {
+    font-size: 14px;
+    color: white;
+    margin: 10px;
+  }
+
+  /* line 169, ../scss/style.scss */
+  .footer {
+    display: inline-block;
+    padding-right: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  /* line 177, ../scss/style.scss */
+  .news {
+    display: block;
+    width: 20%;
+    float: right;
+    background-color: green;
+    margin-right: 25px;
+    display: block;
+  }
+
+  /* line 186, ../scss/style.scss */
+  .container1 {
+    width: 40%;
+    float: left;
+    margin: 20px;
+  }
+
+  /* line 191, ../scss/style.scss */
+  .container2 {
+    width: 40%;
+    float: right;
+    margin-right: 100px;
+  }
+
+  /* line 199, ../scss/style.scss */
+  .footerbox p {
+    float: right;
+  }
+
+  /* line 203, ../scss/style.scss */
+  .zverse {
+    float: left;
+    width: 40%;
+  }
+
+  /* line 207, ../scss/style.scss */
+  .container2 h1 {
+    font-size: 24px;
+    width: 60%;
+  }
+
+  /* line 212, ../scss/style.scss */
+  .news textarea {
+    border-width: 0.48px;
+    border-color: white;
+    border-style: solid;
+    background-color: #ff9230;
+    width: 150px;
+  }
+
+  /* line 221, ../scss/style.scss */
+  .news input {
+    background-color: #ff9230;
+    border-style: solid;
+    width: 220px;
+    height: 50px;
+    margin-top: 20px;
+  }
+
+  /* line 229, ../scss/style.scss */
+  .news input:hover {
+    background-color: white;
+  }
+
+  /* line 233, ../scss/style.scss */
+  .button1 {
+    background-color: blue;
+    border-style: solid;
+    width: 220px;
+    height: 50px;
+    margin-top: 20px;
+  }
+
+  /* line 242, ../scss/style.scss */
+  table, th, td {
+    border: 1px solid black;
+  }
+
+  /* line 245, ../scss/style.scss */
+  th {
+    background-color: #4c4a4c;
+    color: white;
+    height: 50px;
+  }
+
+  /* line 251, ../scss/style.scss */
+  table {
+    width: 70%;
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+
+  /* line 261, ../scss/style.scss */
+  tr {
+    background-color: #989898;
+  }
+
+  /* line 267, ../scss/style.scss */
+  td {
+    padding: 20px;
+  }
+
+  /* line 271, ../scss/style.scss */
+  .firstgray {
+    background-color: white;
+  }
+
+  /* line 276, ../scss/style.scss */
+  tr:hover {
+    background-color: yellow;
+  }
+
+  /* line 280, ../scss/style.scss */
+  .profile {
+    background-color: black;
+    width: 20%;
+    float: left;
+    margin: 0px;
+  }
+
+  /* line 287, ../scss/style.scss */
+  .profile ul {
+    background-color: gray;
+    margin-top: 30px;
+    padding-bottom: 0px;
+  }
+
+  /* line 293, ../scss/style.scss */
+  header {
+    width: 100%;
+    display: inline-block;
+  }
+
+  /* line 298, ../scss/style.scss */
+  .blackcoat {
+    background-color: orange;
+    width: 100%;
+    padding-top: 20px;
+  }
+
+  /* line 305, ../scss/style.scss */
+  .blackcoat img {
+    width: 10%;
+  }
+
+  /* line 309, ../scss/style.scss */
+  .fb {
+    background-image: url(../img/facebook51.png);
+    background-repeat: no-repeat;
+    background-position: 0px center;
+    padding-right: 50px;
+    width: 100%;
+    padding-left: 100px;
+    list-style-type: none;
+    padding-top: 50px;
+  }
+
+  /* line 322, ../scss/style.scss */
+  .tw {
+    background-image: url(../img/facebook51.png);
+    background-repeat: no-repeat;
+    background-position: 0px center;
+    padding-left: 100px;
+    padding-top: 50px;
+    list-style-type: none;
+  }
+
+  /* line 333, ../scss/style.scss */
+  .ig {
+    background-image: url(../img/facebook51.png);
+    background-repeat: no-repeat;
+    background-position: 0px center;
+    padding-left: 100px;
+    list-style-type: none;
+    padding-top: 50px;
+  }
+
+  /* line 344, ../scss/style.scss */
+  .footerbox li {
+    margin-right: 40px;
+  }
+
+  /* line 348, ../scss/style.scss */
+  .footerbox ul {
+    width: 100%;
+  }
+
+  /* line 352, ../scss/style.scss */
+  .top {
+    width: 100%;
+    background-color: tan;
+    display: block;
+  }
+
+  /* line 358, ../scss/style.scss */
+  table {
+    float: right;
+  }
+
+  /* line 361, ../scss/style.scss */
+  header img {
+    width: 10%;
+    float: left;
+  }
+}

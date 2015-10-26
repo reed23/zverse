@@ -1,0 +1,391 @@
+/***** CLEARFIX is applied to the parent of floated elements *************/
+/*************************************************************************/
+
+.clearfix {
+    zoom: 1;
+    &:before, &:after {
+        content: "";
+        display: table;
+    }
+    &:after {
+        clear: both;
+    }
+}
+
+/***** SITE STYLES *************/
+/**********************************/
+.nav ul {
+  list-style: none;
+  background-color: #444;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+.nav li {
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.2em;
+  line-height: 40px;
+  height: 40px;
+  border-bottom: 1px solid #888;
+}
+ 
+.nav a {
+  text-decoration: none;
+  color: #fff;
+  display: block;
+  transition: .3s background-color;
+}
+ 
+.nav a:hover {
+  background-color: #005f5f;
+}
+ 
+.nav a.active {
+  background-color: #fff;
+  color: #444;
+  cursor: default;
+}
+ 
+
+.footerbox{
+  display: none;
+}
+
+
+.footer{
+  background-color:#ff6600;
+}
+.profile li{
+  background-color:gray;
+  width: 100%;
+  list-style-type:none;
+}
+
+.graybox{
+  width: 100%;
+  background-color:#989898;
+  padding-top:30px;
+  padding-bottom:30px;
+}
+.graybox img{
+  width: 50%;
+  margin-left:50px;
+}
+
+.blue2{
+  width: 55%;
+  margin-left:25px;
+}
+label {
+  display: inline-block;
+}
+
+form{
+  width: 100%;
+
+
+}
+//this is the beginning of the large site 
+//plus 600 px
+
+
+
+@media screen and (min-width: 600px) {
+
+
+.blue2{
+  width: 100%;
+}
+
+
+
+
+.graybox{
+  width: 70%;
+  margin-left:100px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.form{
+  width: 100%;
+  margin-left:100px;
+}
+.graybox img{
+  width: 50%;
+}
+
+
+.nav li {
+    width: 80px;
+    border-bottom: none;
+    height: 50px;
+    line-height: 50px;
+    font-size: 1.4em;
+  }
+.nav li {
+    display: inline-block;
+    margin-right: -0px;
+  }
+ 
+.nav ul{
+  width: 50%;
+  margin-left: 300px;
+  margin-top:50px;
+}
+
+
+
+.footerbox{
+  display: block;
+
+
+  width: 50%;
+  float: left;
+  
+}
+
+  
+.footerbox div{
+  width: 75%;
+
+}
+
+.footerbox img{
+  float: left;
+  width: 25%;
+}
+
+.footertext{
+  width:40%;
+  float: right;
+  margin-right:50px;
+
+}
+.footertext {
+  font-size:14px;
+  color: white;
+  margin: 10px;
+}
+ .footer{
+  display:inline-block;
+  padding-right:50px;
+  padding-top:20px;
+  padding-bottom:20px;
+
+}
+
+.news{
+  display: block;
+  width: 20%;
+  float: right;
+  background-color:green;
+  margin-right: 25px;
+  display: block;
+}
+
+.container1{
+  width: 40%;
+  float: left;
+  margin: 20px;
+}
+.container2{
+  width: 40%;
+  float: right;
+  margin-right: 100px;
+
+
+
+}
+.footerbox p{
+  float: right;
+}
+
+.zverse{
+  float: left;
+  width: 40%;
+}
+.container2 h1{
+  font-size: 24px;
+  width: 60%;
+}
+
+.news textarea{
+  border-width: 0.48px;
+  border-color: rgb(255, 255, 255);
+  border-style: solid;
+  background-color: rgb(255, 146, 48);
+  width: 150px;
+  
+ 
+}
+.news input{
+  background-color: rgb(255, 146, 48);
+    border-style: solid;
+    width: 220px;
+    height: 50px;
+    margin-top: 20px;
+}
+
+.news input:hover{
+  background-color:white;
+}
+
+.button1{
+  background-color: blue;
+    border-style: solid;
+    width: 220px;
+    height: 50px;
+    margin-top: 20px;
+
+
+}
+table, th, td {
+    border: 1px solid black;
+}
+th{
+  background-color:#4c4a4c;
+  color: white;
+  height: 50px;
+
+}
+table{
+  width: 70%;
+  margin-right:20px;
+  margin-left: 20px;
+
+ 
+
+
+}
+
+tr{
+  background-color:#989898;
+
+
+}
+
+td{
+  padding:20px;
+}
+
+.firstgray{
+  background-color:white;
+}
+
+
+tr:hover { 
+    background-color: yellow;
+}
+
+.profile{
+  background-color:black;
+  width: 20%;
+  float: left;
+  margin: 0px;
+}
+
+.profile ul{
+  background-color:gray;
+  margin-top:30px;
+  padding-bottom:0px;
+}
+
+  header{
+  width: 100%;
+  display: inline-block;
+}
+
+.blackcoat{
+  background-color:orange;
+  
+  width: 100%;
+  padding-top:20px;
+}
+
+.blackcoat img{
+   width: 10%;
+}
+
+.fb{ 
+ background-image: url(../img/facebook51.png);
+ background-repeat: no-repeat;
+   background-position: 0px center; 
+   padding-right:50px;
+   width: 100%;
+    padding-left:100px;
+     list-style-type: none;
+
+    padding-top:50px;
+}
+
+
+.tw{ 
+ background-image: url(../img/facebook51.png);
+ background-repeat: no-repeat;
+   background-position: 0px center;
+   padding-left:100px; 
+
+    padding-top:50px;
+    list-style-type: none;
+}
+
+
+.ig{ 
+ background-image: url(../img/facebook51.png);
+ background-repeat: no-repeat;
+   background-position: 0px center; 
+   padding-left:100px;
+     list-style-type: none;
+     padding-top:50px;
+
+
+}
+
+.footerbox li{
+  margin-right: 40px;
+}
+
+.footerbox ul{
+  width: 100%;
+}
+
+.top{
+  width: 100%;
+  background-color:tan;
+  display: block;
+}
+
+table{
+  float: right;
+  }
+header img{
+  width: 10%;
+  float: left;
+
+}
+
+
+ 
+
+ 
+
+
+
+
+
+} //end of media screen
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

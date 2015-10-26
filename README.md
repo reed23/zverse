@@ -1,2 +1,2 @@
-# zverse
-Zverse  a 3d printing company
+# site_template
+Basic site template for UI Students to use for new projects
