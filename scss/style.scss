@@ -61,6 +61,41 @@
   list-style-type:none;
 }
 
+.login{
+  width: 100%;
+  background-color:#ff9230;
+  display: inline-block;
+  margin: 25px;
+}
+
+.login h1 {
+  width: 100%;
+  font-size:18px;
+  background-color:#525052;
+  font-family: source-sans-pro;.Rounded_Rectangle_4 {
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(0, 168, 168);
+  border-radius: 8px;
+  background-color: rgb(255, 255, 255);
+  position: absolute;
+  left: 475px;
+  top: 306px;
+  width: 478px;
+  height: 104px;
+  z-index: 20;
+}
+
+
+
+
+
+
+
+
+
+
+
 .graybox{
   width: 100%;
   background-color:#989898;
@@ -85,6 +120,23 @@ form{
 
 
 }
+.login input{
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(0, 168, 168);
+  border-radius: 8px;
+  background-color: rgb(255, 255, 255);
+  left: 475px;
+  top: 306px;
+  width: 250px;
+  height: 50px;
+  z-index: 20;
+
+}
+
+}
+
+
 //this is the beginning of the large site 
 //plus 600 px
 
@@ -93,10 +145,26 @@ form{
 @media screen and (min-width: 600px) {
 
 
+.nav ul{
+  float: right;
+  margin-top: 1000px;
+  width: 100%;
+}
+
+.nav{
+  width: 75%;
+  float: right;
+
+}
+
 .blue2{
   width: 100%;
 }
 
+.logo{
+  width: 15%;
+  float: left;
+}
 
 
 
@@ -129,8 +197,9 @@ form{
  
 .nav ul{
   width: 50%;
-  margin-left: 300px;
+  margin-right:300px;
   margin-top:50px;
+  float: right;
 }
 
 
@@ -374,8 +443,6 @@ header img{
 
 
 } //end of media screen
-
-
 
 
 
