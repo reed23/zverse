@@ -12,6 +12,10 @@
         <!-- Place favicon.ico in the root directory -->
         <link rel="stylesheet" href="node_modules/normalize.css/normalize.css">
         <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" type="text/css" href="css/easy-responsive-tabs.css " />
+        <script src="js/jquery-1.9.1.min.js"></script>
+    <script src="js/easyResponsiveTabs.js"></script>
+
     </head>
     <body>
 
@@ -20,56 +24,59 @@
 
 
         <div class="wrapper">
-            <nav class="navigation">
-                <ul>
-                    
-                    <li class="layr"><a href="#">Home</a></li>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Home</a></li>
-                </ul>
-            </nav>
+          
+         <div class= "header">
+
+            <div class="nav clearfix">
+
+
+              <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Open Projects</a></li>
+                <li><a href="#">Payments</a></li>
+                <li><a href="#">My Projects</a></li>
+                                   <form>
+                                <input class="search" input type="text" placeholder="Search..." required>
+                                
+           </form>
+
+
+        </ul>
+      </div> <!--end of nav -->
+    </div>
+                     <div class="tabholder">
+
+                        <ul class='tabs'>
+                <li><a href='#tab1'>Tab 1</a></li>
+                <li><a href='#tab2'>Tab 2</a></li>
+                <li><a href='#tab3'>Tab 3</a></li>
+                 <li><a href='#tab4'>Tab 4</a></li>
+                  <li><a href='#tab5'>Tab 5</a></li>
+              </ul>
+              <div id='tab1'>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+              </div>
+              <div id='tab2'>
+                <p>This is the 2nd tab.</p>
+              </div>
+              <div id='tab3'>
+                <p>And this is the 3rd tab.</p>
+              </div>
+              <div id='tab4'>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+              </div>
+              <div id='tab5'>
+                <p>Tab 5setting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+              </div>
+              </div>
             
+    
+         
 
+      </div> <!--end of wrapper -->
 
-                         <table>
-                  <tr>
-                    <th>Month</th>
-                    <th>Savings</th>
-                       <th>Savings</th>
-                  </tr>
-                  <tr class="firstgray">
-                    <td>January</td>
-                    <td>$100</td>
-                    <td>$100</td>  
-                    </tr>
-                     <td>$100</td>
-                     <td>$100</td>
-                      <td>$100</td>
-
-
-
-                  <tr>
-                    <td>February</td>
-                    <td>$80</td>
-                     <td>$80</td>  </tr>
-
-                 </tr>
-                <tr>
-                     <td>$100</td>
-                     <td>$100</td>
-                      <td>$100</td>
-                </tr>
-                <tr>
-                     <td>$100</td>
-                     <td>$100</td>
-                      <td>$100</td>
-                </tr></table>
-
-
-
-            <div class="footer clearfix">
-                <div class="container1 clearfix">
+      <div class="footer clearfix">
+             
                 <img class="zverse"img src="img/zverselogoblack.png">
 
                 <p class="footertext clearfix">  About Us
@@ -77,34 +84,41 @@
                     ZVerse is a applications company focused on accelerating the creation of meaningful 3D printable content. With the LAYR 3D Content Creation Platform, ZVerse is creating a suite of software applications that make any 2D content 3D printable. Since being founded in 2012, ZVerse's technology has brought meaningful, high-quality 3D printed content to brands and organizations all over the world. ZVerse is making the world's content 3D printable.
 
                 </p>
-                </div>
-                <div class="container2 clearfix">
+               
+             
                 
 
                 <div class="footerbox clearfix">
+                    
+
                     <h1>Keep Connected</h1>
-                    <div clearfix>
-                    <img src="img/facebook51.png"> <p>Facebook</p>
-                    </div>
-                   
+
+                    <div class="one">
+                      <img src="img/facebook51.png">
+                      <p>Facebook</p>
+                      </div> <!--end of one -->
+                    
+                    <div class="one">
+                      <img src="img/facebook51.png">
+                      <p>Facebook</p>
+                      </div> <!--end of one -->
+                    
+                    <div class="one">
+                      <img src="img/facebook51.png">
+                      <p>Facebook</p>
+                      </div> <!--end of one -->
+                    
 
 
-                    <div clearfix>
-                    <img src="img/instagram10.png"> <p>Instagram</p>
-                   </div>
-
-                    <div clearfix> 
-                    <img src="img/twitter44.png"> <p>Twitter</p>
-                  </div>
-                </div> <!--end of footerbox -->
+                    </div> <!--end of footerboc-->
                 
-                <div class="news clearfix">
+                <div class="news">
                   <input type="text">
                   <input type="text">
                   <button class="button1"> </button>
                 </div>
             
-            </div>
+        
 
 
 
@@ -116,22 +130,8 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-        </div> <!--end of wrapper -->
-    
         <!-- CONTENT FOR WEBSITE -->
+
         
         <script src="node_modules/jquery/dist/jquery.min.js"></script>
         <script src="js/script.js"></script>
